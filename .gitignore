@@ -1,0 +1,10 @@
+build/
+# the original game: never in the repository
+OFFROAD/
+*.exe
+*.xx
+*.pcg
+*.sfx
+*.bin
+.DS_Store
+compile_flags.txt
