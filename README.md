@@ -5,8 +5,12 @@ Road*, the Graftgold conversion of the Leland arcade game. It plays the same
 races as the original: the same tracks, the same trucks, the same computer
 drivers, the same music and sound effects.
 
+**Play it in your browser** on [carlosinatra.me/portfolio](https://carlosinatra.me/portfolio/):
+Start → Programs → Games → Old but gold → Ironman Super Off Road.
+
 **The original game is not included.** This repository holds only the new
-code. To play you need the files of your own copy of the DOS game.
+code. To build and play it yourself you need the files of the DOS game, which
+you have to add on your own.
 
 ## How it was made
 
@@ -83,11 +87,12 @@ turned on.
 ```
 
 compiles the same code with [Emscripten](https://emscripten.org/) into
-`build/web/offroad.{js,wasm,data}`, with the original files packed inside
-`offroad.data` (so that file is not something to share). It is a module meant
-to be driven by a host page, which this repository does not include. `OUT` and `DATA` choose the output folder and the
-folder of the original files, `EMSDK` the Emscripten installation (default
-`/opt/emsdk`, unless `emcc` is already on the path).
+`build/web/offroad.{js,wasm,data}`, with the files of your `OFFROAD` folder
+packed inside `offroad.data`. It is a module meant to be driven by a host
+page, like the one on carlosinatra.me, which is not part of this repository.
+`OUT` and `DATA` choose the output folder and the folder of the original
+files, `EMSDK` the Emscripten installation (default `/opt/emsdk`, unless
+`emcc` is already on the path).
 
 ## Credits
 
