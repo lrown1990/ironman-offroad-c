@@ -5,8 +5,8 @@ Road*, the Graftgold conversion of the Leland arcade game. It plays the same
 races as the original: the same tracks, the same trucks, the same computer
 drivers, the same music and sound effects.
 
-**Play it in your browser** on [carlosinatra.me/portfolio](https://carlosinatra.me/portfolio/):
-Start → Programs → Games → Old but gold → Ironman Super Off Road.
+**Play it in your browser:**
+[carlosinatra.me/portfolio/giochi/ironman-offroad](https://carlosinatra.me/portfolio/giochi/ironman-offroad)
 
 **The original game is not included.** This repository holds only the new
 code. To build and play it yourself you need the files of the DOS game, which
